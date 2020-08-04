@@ -9,7 +9,7 @@ fi
 apt-get update
 echo ""
 echo "Step 0/6: Natural requirements"
-apt install build-essential
+apt install build-essential -qy
 echo "Step 1/6: Running apt-get update"
 echo "Installing packages"
 echo "Step 2/6: Checking/Installing Theharvester"
