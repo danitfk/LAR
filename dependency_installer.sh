@@ -5,9 +5,11 @@ echo "OS detected successfully"
 else
 echo "OS Not supported. Only KALI LINUX"
 exit 1
-echo "Step 1/6: Running apt-get update"
 apt-get update
 echo ""
+echo "Step 0/6: Natural requirements"
+apt install build-essential
+echo "Step 1/6: Running apt-get update"
 echo "Installing packages"
 echo "Step 2/6: Checking/Installing Theharvester"
 apt install theharvester -qy
