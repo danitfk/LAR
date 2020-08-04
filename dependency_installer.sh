@@ -6,7 +6,6 @@ else
 echo "OS Not supported. Only KALI LINUX"
 exit 1
 fi
-apt-get update
 echo ""
 echo "Step 0/6: Natural requirements"
 apt install build-essential -qy
