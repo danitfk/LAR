@@ -4,5 +4,5 @@ services:
     build:
       context: ./
     container_name: lar
-      volumes:
+    volumes:
       - "./:/app"
