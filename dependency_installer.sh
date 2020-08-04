@@ -8,7 +8,7 @@ exit 1
 fi
 echo ""
 echo "Step 0/6: Natural requirements"
-apt install build-essential -qy
+apt install build-essential curl -qy
 echo "Step 1/6: Running apt-get update"
 echo "Installing packages"
 echo "Step 2/6: Checking/Installing Theharvester"
