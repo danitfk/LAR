@@ -1,6 +1,6 @@
 version: '3.3'
 services:
-  LAR:
+  lar:
     build:
       context: ./
-    container_name: LAR
+    container_name: lar
